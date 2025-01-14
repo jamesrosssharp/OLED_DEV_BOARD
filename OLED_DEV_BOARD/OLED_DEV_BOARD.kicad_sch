@@ -3238,7 +3238,7 @@
     (uuid a17904b9-135e-4dae-ae20-401c7787de72)
     (property "Reference" "J2" (id 0) (at 49.53 30.5902 0))
     (property "Value" "Conn_02x10_Odd_Even" (id 1) (at 49.53 33.1271 0))
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical" (id 2) (at 48.26 45.72 0)
+    (property "Footprint" "OLED:NHD-1.8-160128UBC3" (id 2) (at 48.26 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 48.26 45.72 0)
@@ -4112,7 +4112,7 @@
       (reference "J1") (unit 1) (value "Barrel_Jack") (footprint "Connector_BarrelJack:BarrelJack_CUI_PJ-102AH_Horizontal")
     )
     (path "/a17904b9-135e-4dae-ae20-401c7787de72"
-      (reference "J2") (unit 1) (value "Conn_02x10_Odd_Even") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical")
+      (reference "J2") (unit 1) (value "Conn_02x10_Odd_Even") (footprint "OLED:NHD-1.8-160128UBC3")
     )
     (path "/97d5cdb2-e749-4919-9dcf-4b58ea280295"
       (reference "J3") (unit 1) (value "AudioJack3_Ground") (footprint "Connector_Audio:Jack_3.5mm_CUI_SJ-3523-SMT_Horizontal")
