@@ -1,0 +1,1058 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/jrsharp/hardware/OLED_DEV_BOARD/OLED_DEV_BOARD/OLED_DEV_BOARD.kicad_sch</source>
+    <date>Sun 19 Jan 2025 18:15:43</date>
+    <tool>Eeschema 6.0.2+dfsg-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>OLED_DEV_BOARD.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>100uF</value>
+      <footprint>Capacitor_SMD:CP_Elec_10x10</footprint>
+      <fields>
+        <field name="Manufacturer Part Number">GXC1H101MCQ1GS</field>
+        <field name="Mouser Part Number">647-GXC1H101MCQ1GS</field>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Voltage" value="50V"/>
+      <property name="Manufacturer Part Number" value="GXC1H101MCQ1GS"/>
+      <property name="Mouser Part Number" value="647-GXC1H101MCQ1GS"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OLED_DEV_BOARD.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>468c27bf-49a5-4c17-9349-b88c09fec8aa</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>1nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Manufacturer Part Number">C0603C102K4RAC7411</field>
+        <field name="Mouser Part Number">80-C0603C102K4RACLR</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer Part Number" value="C0603C102K4RAC7411"/>
+      <property name="Mouser Part Number" value="80-C0603C102K4RACLR"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OLED_DEV_BOARD.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e8876dbf-7ea1-4043-bdf2-284835487698</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="Manufacturer Part Number">CL31B106KQHNFNE</field>
+        <field name="Mouser Part Number">187-CL31B106KQHNFNE</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Manufacturer Part Number" value="CL31B106KQHNFNE"/>
+      <property name="Mouser Part Number" value="187-CL31B106KQHNFNE"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OLED_DEV_BOARD.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>56b1f7fb-2632-4425-9cec-3b271a10fb53</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Manufacturer Part Number">C0603C104K4RACTU</field>
+        <field name="Mouser Part Number">80-C0603C104K4R</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer Part Number" value="C0603C104K4RACTU"/>
+      <property name="Mouser Part Number" value="80-C0603C104K4R"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OLED_DEV_BOARD.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>eb94e8ae-d252-44ad-9a8c-740b5c98d893</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Manufacturer Part Number">C0603C104K4RACTU</field>
+        <field name="Mouser Part Number">80-C0603C104K4R</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer Part Number" value="C0603C104K4RACTU"/>
+      <property name="Mouser Part Number" value="80-C0603C104K4R"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OLED_DEV_BOARD.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6fdb650a-7213-467f-9663-85bbe59467a9</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Manufacturer Part Number">C0603C104K4RACTU</field>
+        <field name="Mouser Part Number">80-C0603C104K4R</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer Part Number" value="C0603C104K4RACTU"/>
+      <property name="Mouser Part Number" value="80-C0603C104K4R"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OLED_DEV_BOARD.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f9e83731-f733-40e4-9c7f-6906aaf7d750</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="Manufacturer Part Number">CL31B106KQHNFNE</field>
+        <field name="Mouser Part Number">187-CL31B106KQHNFNE</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Manufacturer Part Number" value="CL31B106KQHNFNE"/>
+      <property name="Mouser Part Number" value="187-CL31B106KQHNFNE"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OLED_DEV_BOARD.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e7536fd7-778a-43e9-b74f-8f9169386386</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Manufacturer Part Number">C0603C104K4RACTU</field>
+        <field name="Mouser Part Number">80-C0603C104K4R</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer Part Number" value="C0603C104K4RACTU"/>
+      <property name="Mouser Part Number" value="80-C0603C104K4R"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OLED_DEV_BOARD.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>acacc0ee-e9f3-4c52-bdc7-0c5355f185c5</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>FR1G</value>
+      <footprint>Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</footprint>
+      <datasheet>http://www.vishay.com/docs/88503/1n4001.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer Part Number">FR1G</field>
+        <field name="Mouser Part Number">637-FR1G</field>
+      </fields>
+      <libsource lib="Diode" part="1N4004" description="400V 1A General Purpose Rectifier Diode, DO-41"/>
+      <property name="Manufacturer Part Number" value="FR1G"/>
+      <property name="Mouser Part Number" value="637-FR1G"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OLED_DEV_BOARD.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>18ac07ce-df99-4b15-b1c7-1a6f6425b01c</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Barrel_Jack</value>
+      <footprint>Connector_BarrelJack:BarrelJack_CUI_PJ-102AH_Horizontal</footprint>
+      <fields>
+        <field name="Manufacturer Part Number">PJ-102AH</field>
+        <field name="Mouser Part Number">490-PJ-102AH</field>
+      </fields>
+      <libsource lib="Connector" part="Barrel_Jack" description="DC Barrel Jack"/>
+      <property name="Manufacturer Part Number" value="PJ-102AH"/>
+      <property name="Mouser Part Number" value="490-PJ-102AH"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OLED_DEV_BOARD.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>aaf01c9a-c9a3-4e42-a983-ec360a40fbc7</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_02x10_Odd_Even</value>
+      <footprint>OLED:NHD-1.8-160128UBC3</footprint>
+      <fields>
+        <field name="Manufacturer Part Number">10129381-920002BLF</field>
+        <field name="Mouser Part Number">649-1012938192002BLF</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_02x10_Odd_Even" description="Generic connector, double row, 02x10, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Mouser Part Number" value="649-1012938192002BLF"/>
+      <property name="Manufacturer Part Number" value="10129381-920002BLF"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OLED_DEV_BOARD.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a17904b9-135e-4dae-ae20-401c7787de72</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>AudioJack3_Ground</value>
+      <footprint>Connector_Audio:Jack_3.5mm_CUI_SJ-3523-SMT_Horizontal</footprint>
+      <fields>
+        <field name="MPN">SJ-3523-SMT-TR </field>
+        <field name="Manufacturer Part Number">SJ-3523-SMT-TR</field>
+        <field name="Mouser Part Number">490-SJ-3523-SMT-TR</field>
+      </fields>
+      <libsource lib="Connector" part="AudioJack3_Ground" description="Audio Jack, 3 Poles (Stereo / TRS), Grounded Sleeve"/>
+      <property name="MPN" value="SJ-3523-SMT-TR "/>
+      <property name="Manufacturer Part Number" value="SJ-3523-SMT-TR"/>
+      <property name="Mouser Part Number" value="490-SJ-3523-SMT-TR"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OLED_DEV_BOARD.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>97d5cdb2-e749-4919-9dcf-4b58ea280295</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_02x20_Odd_Even</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Manufacturer Part Number">10129381-940002BLF</field>
+        <field name="Mouser Part Number">649-1012938194002BLF</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_02x20_Odd_Even" description="Generic connector, double row, 02x20, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Manufacturer Part Number" value="10129381-940002BLF"/>
+      <property name="Mouser Part Number" value="649-1012938194002BLF"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OLED_DEV_BOARD.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>54d16c5b-9b41-4b51-a10b-f535e45211b6</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>5k6</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Manufacturer Part Number">AC0603FR-075K6L</field>
+        <field name="Mouser Part Number">603-AC0603FR-075K6L</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer Part Number" value="AC0603FR-075K6L"/>
+      <property name="Mouser Part Number" value="603-AC0603FR-075K6L"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OLED_DEV_BOARD.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a97bdb0e-50dc-4d4d-8696-24878fed2a66</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>5k6</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Manufacturer Part Number">AC0603FR-075K6L</field>
+        <field name="Mouser Part Number">603-AC0603FR-075K6L</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer Part Number" value="AC0603FR-075K6L"/>
+      <property name="Mouser Part Number" value="603-AC0603FR-075K6L"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OLED_DEV_BOARD.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>feb410a2-2c18-46cf-a96b-b1718be67f22</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>5k6</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Manufacturer Part Number">AC0603FR-075K6L</field>
+        <field name="Mouser Part Number">603-AC0603FR-075K6L</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer Part Number" value="AC0603FR-075K6L"/>
+      <property name="Mouser Part Number" value="603-AC0603FR-075K6L"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OLED_DEV_BOARD.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e95cb7b6-62fe-4cfa-a4f2-f99602aa0d9f</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>5k6</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Manufacturer Part Number">AC0603FR-075K6L</field>
+        <field name="Mouser Part Number">603-AC0603FR-075K6L</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer Part Number" value="AC0603FR-075K6L"/>
+      <property name="Mouser Part Number" value="603-AC0603FR-075K6L"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OLED_DEV_BOARD.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d459f929-b80a-4bd9-aecf-3012ec1f42fe</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>5k6</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Manufacturer Part Number">AC0603FR-075K6L</field>
+        <field name="Mouser Part Number">603-AC0603FR-075K6L</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer Part Number" value="AC0603FR-075K6L"/>
+      <property name="Mouser Part Number" value="603-AC0603FR-075K6L"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OLED_DEV_BOARD.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5e15f06f-fd40-43a8-97ac-6136b922ac0a</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>5k6</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Manufacturer Part Number">AC0603FR-075K6L</field>
+        <field name="Mouser Part Number">603-AC0603FR-075K6L</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer Part Number" value="AC0603FR-075K6L"/>
+      <property name="Mouser Part Number" value="603-AC0603FR-075K6L"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OLED_DEV_BOARD.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>708de9ae-aa34-4cc0-a6de-1128b0edc7a8</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>5k6</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Manufacturer Part Number">AC0603FR-075K6L</field>
+        <field name="Mouser Part Number">603-AC0603FR-075K6L</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer Part Number" value="AC0603FR-075K6L"/>
+      <property name="Mouser Part Number" value="603-AC0603FR-075K6L"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OLED_DEV_BOARD.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>31be6278-c547-4de0-a2f4-23001772c4cc</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>5k6</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Manufacturer Part Number">AC0603FR-075K6L</field>
+        <field name="Mouser Part Number">603-AC0603FR-075K6L</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer Part Number" value="AC0603FR-075K6L"/>
+      <property name="Mouser Part Number" value="603-AC0603FR-075K6L"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OLED_DEV_BOARD.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>61f70b66-0197-44df-a101-3ff0aeea5c89</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>5k6</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Manufacturer Part Number">AC0603FR-075K6L</field>
+        <field name="Mouser Part Number">603-AC0603FR-075K6L</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer Part Number" value="AC0603FR-075K6L"/>
+      <property name="Mouser Part Number" value="603-AC0603FR-075K6L"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OLED_DEV_BOARD.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>16ed3c1e-f293-447f-b7ff-8fe0602b6a05</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_DIP_x02</value>
+      <footprint>Button_Switch_SMD:SW_DIP_SPSTx02_Slide_Omron_A6S-210x_W8.9mm_P2.54mm</footprint>
+      <fields>
+        <field name="Manufacturer Part Number">A6S-2102-PH</field>
+        <field name="Mouser Part Number">653-A6S-2102-PH</field>
+      </fields>
+      <libsource lib="Switch" part="SW_DIP_x02" description="2x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"/>
+      <property name="Manufacturer Part Number" value="A6S-2102-PH"/>
+      <property name="Mouser Part Number" value="653-A6S-2102-PH"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OLED_DEV_BOARD.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a3252723-482a-4227-bb3c-f233a3678b83</tstamps>
+    </comp>
+    <comp ref="SW2">
+      <value>SW_MEC_5E</value>
+      <footprint>OLED:SKHHAJA010</footprint>
+      <datasheet>http://www.apem.com/int/index.php?controller=attachment&amp;id_attachment=1371</datasheet>
+      <fields>
+        <field name="Manufacturer Part Number">SKHHAJA010</field>
+        <field name="Mouser Part Number">688-SKHHAJ</field>
+      </fields>
+      <libsource lib="Switch" part="SW_MEC_5E" description="MEC 5E single pole normally-open tactile switch"/>
+      <property name="Manufacturer Part Number" value="SKHHAJA010"/>
+      <property name="Mouser Part Number" value="688-SKHHAJ"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OLED_DEV_BOARD.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ec794d10-bd06-4930-9be8-cffa5d6a2ec5</tstamps>
+    </comp>
+    <comp ref="SW3">
+      <value>SW_MEC_5E</value>
+      <footprint>OLED:SKHHAJA010</footprint>
+      <datasheet>http://www.apem.com/int/index.php?controller=attachment&amp;id_attachment=1371</datasheet>
+      <fields>
+        <field name="Manufacturer Part Number">SKHHAJA010</field>
+        <field name="Mouser Part Number">688-SKHHAJ</field>
+      </fields>
+      <libsource lib="Switch" part="SW_MEC_5E" description="MEC 5E single pole normally-open tactile switch"/>
+      <property name="Manufacturer Part Number" value="SKHHAJA010"/>
+      <property name="Mouser Part Number" value="688-SKHHAJ"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OLED_DEV_BOARD.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>01e98450-684e-414d-a12c-179b96fd374a</tstamps>
+    </comp>
+    <comp ref="SW4">
+      <value>SW_MEC_5E</value>
+      <footprint>OLED:SKHHAJA010</footprint>
+      <datasheet>http://www.apem.com/int/index.php?controller=attachment&amp;id_attachment=1371</datasheet>
+      <fields>
+        <field name="Manufacturer Part Number">SKHHAJA010</field>
+        <field name="Mouser Part Number">688-SKHHAJ</field>
+      </fields>
+      <libsource lib="Switch" part="SW_MEC_5E" description="MEC 5E single pole normally-open tactile switch"/>
+      <property name="Manufacturer Part Number" value="SKHHAJA010"/>
+      <property name="Mouser Part Number" value="688-SKHHAJ"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OLED_DEV_BOARD.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>45f61841-80c4-4af5-8bb0-7741db19f2f8</tstamps>
+    </comp>
+    <comp ref="SW5">
+      <value>SW_MEC_5E</value>
+      <footprint>OLED:SKHHAJA010</footprint>
+      <datasheet>http://www.apem.com/int/index.php?controller=attachment&amp;id_attachment=1371</datasheet>
+      <fields>
+        <field name="Manufacturer Part Number">SKHHAJA010</field>
+        <field name="Mouser Part Number">688-SKHHAJ</field>
+      </fields>
+      <libsource lib="Switch" part="SW_MEC_5E" description="MEC 5E single pole normally-open tactile switch"/>
+      <property name="Manufacturer Part Number" value="SKHHAJA010"/>
+      <property name="Mouser Part Number" value="688-SKHHAJ"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OLED_DEV_BOARD.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6fb7e6ef-3c32-473b-89b1-c98aeacad6fb</tstamps>
+    </comp>
+    <comp ref="SW6">
+      <value>SW_MEC_5E</value>
+      <footprint>OLED:SKHHAJA010</footprint>
+      <datasheet>http://www.apem.com/int/index.php?controller=attachment&amp;id_attachment=1371</datasheet>
+      <fields>
+        <field name="Manufacturer Part Number">SKHHAJA010</field>
+        <field name="Mouser Part Number">688-SKHHAJ</field>
+      </fields>
+      <libsource lib="Switch" part="SW_MEC_5E" description="MEC 5E single pole normally-open tactile switch"/>
+      <property name="Manufacturer Part Number" value="SKHHAJA010"/>
+      <property name="Mouser Part Number" value="688-SKHHAJ"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OLED_DEV_BOARD.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>71dc5a86-fd4b-444d-a698-d75eb62cc7cc</tstamps>
+    </comp>
+    <comp ref="SW7">
+      <value>SW_MEC_5E</value>
+      <footprint>OLED:SKHHAJA010</footprint>
+      <datasheet>http://www.apem.com/int/index.php?controller=attachment&amp;id_attachment=1371</datasheet>
+      <fields>
+        <field name="Manufacturer Part Number">SKHHAJA010</field>
+        <field name="Mouser Part Number">688-SKHHAJ</field>
+      </fields>
+      <libsource lib="Switch" part="SW_MEC_5E" description="MEC 5E single pole normally-open tactile switch"/>
+      <property name="Manufacturer Part Number" value="SKHHAJA010"/>
+      <property name="Mouser Part Number" value="688-SKHHAJ"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OLED_DEV_BOARD.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>27a9bd5c-078b-492e-9cbc-8493131dfe5f</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>IS66WVS1M8BLL-104NLI</value>
+      <footprint>Package_SO:SOIC-8_5.23x5.23mm_P1.27mm</footprint>
+      <fields>
+        <field name="Manufacturer Part Number">IS66WVS1M8BLL-104NLI-TR</field>
+        <field name="Mouser Part Number">870-WVS1M8BLL104NLIT</field>
+      </fields>
+      <libsource lib="OLED" part="IS66WVS1M8BLL-104NLI" description=""/>
+      <property name="Manufacturer Part Number" value="IS66WVS1M8BLL-104NLI-TR"/>
+      <property name="Mouser Part Number" value="870-WVS1M8BLL104NLIT"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OLED_DEV_BOARD.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bdde9e11-7801-483e-9088-385c57e7afa3</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>W25Q32JVSS</value>
+      <footprint>Package_SO:SOIC-8_5.23x5.23mm_P1.27mm</footprint>
+      <datasheet>http://www.winbond.com/resource-files/w25q32jv%20revg%2003272018%20plus.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer Part Number">W25Q32JVSSIQS</field>
+        <field name="Mouser Part Number">454-W25Q32JVSSIQS</field>
+      </fields>
+      <libsource lib="Memory_Flash" part="W25Q32JVSS" description="32Mb Serial Flash Memory, Standard/Dual/Quad SPI, SOIC-8"/>
+      <property name="Manufacturer Part Number" value="W25Q32JVSSIQS"/>
+      <property name="Mouser Part Number" value="454-W25Q32JVSSIQS"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OLED_DEV_BOARD.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dcdfdf2c-b058-42f8-9fa0-c825c3ddb610</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>NCP1117-3.3_TO252</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-2</footprint>
+      <datasheet>http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF</datasheet>
+      <fields>
+        <field name="Manufacturer Part Number">NCP1117DT33RKG</field>
+        <field name="Mouser Part Number">863-NCP1117DT33RKG</field>
+      </fields>
+      <libsource lib="Regulator_Linear" part="NCP1117-3.3_TO252" description="1A Low drop-out regulator, Fixed Output 3.3V, TO-252 (DPAK)"/>
+      <property name="Manufacturer Part Number" value="NCP1117DT33RKG"/>
+      <property name="Mouser Part Number" value="863-NCP1117DT33RKG"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OLED_DEV_BOARD.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ae5e6671-178e-4d70-bcdc-eef75b4e0cd5</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="AudioJack3_Ground">
+      <description>Audio Jack, 3 Poles (Stereo / TRS), Grounded Sleeve</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Jack*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">AudioJack3_Ground</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="G" name="" type="passive"/>
+        <pin num="R" name="" type="passive"/>
+        <pin num="S" name="" type="passive"/>
+        <pin num="T" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Barrel_Jack">
+      <description>DC Barrel Jack</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>BarrelJack*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Barrel_Jack</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x10_Odd_Even">
+      <description>Generic connector, double row, 02x10, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x10_Odd_Even</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+        <pin num="17" name="Pin_17" type="passive"/>
+        <pin num="18" name="Pin_18" type="passive"/>
+        <pin num="19" name="Pin_19" type="passive"/>
+        <pin num="20" name="Pin_20" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x20_Odd_Even">
+      <description>Generic connector, double row, 02x20, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x20_Odd_Even</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+        <pin num="17" name="Pin_17" type="passive"/>
+        <pin num="18" name="Pin_18" type="passive"/>
+        <pin num="19" name="Pin_19" type="passive"/>
+        <pin num="20" name="Pin_20" type="passive"/>
+        <pin num="21" name="Pin_21" type="passive"/>
+        <pin num="22" name="Pin_22" type="passive"/>
+        <pin num="23" name="Pin_23" type="passive"/>
+        <pin num="24" name="Pin_24" type="passive"/>
+        <pin num="25" name="Pin_25" type="passive"/>
+        <pin num="26" name="Pin_26" type="passive"/>
+        <pin num="27" name="Pin_27" type="passive"/>
+        <pin num="28" name="Pin_28" type="passive"/>
+        <pin num="29" name="Pin_29" type="passive"/>
+        <pin num="30" name="Pin_30" type="passive"/>
+        <pin num="31" name="Pin_31" type="passive"/>
+        <pin num="32" name="Pin_32" type="passive"/>
+        <pin num="33" name="Pin_33" type="passive"/>
+        <pin num="34" name="Pin_34" type="passive"/>
+        <pin num="35" name="Pin_35" type="passive"/>
+        <pin num="36" name="Pin_36" type="passive"/>
+        <pin num="37" name="Pin_37" type="passive"/>
+        <pin num="38" name="Pin_38" type="passive"/>
+        <pin num="39" name="Pin_39" type="passive"/>
+        <pin num="40" name="Pin_40" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Polarized">
+      <description>Polarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="1N4004">
+      <description>400V 1A General Purpose Rectifier Diode, DO-41</description>
+      <docs>http://www.vishay.com/docs/88503/1n4001.pdf</docs>
+      <footprints>
+        <fp>D*DO?41*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N4004</field>
+        <field name="Footprint">Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</field>
+        <field name="Datasheet">http://www.vishay.com/docs/88503/1n4001.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Memory_Flash" part="W25Q32JVSS">
+      <description>32Mb Serial Flash Memory, Standard/Dual/Quad SPI, SOIC-8</description>
+      <docs>http://www.winbond.com/resource-files/w25q32jv%20revg%2003272018%20plus.pdf</docs>
+      <footprints>
+        <fp>SOIC*5.23x5.23mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">W25Q32JVSS</field>
+        <field name="Footprint">Package_SO:SOIC-8_5.23x5.23mm_P1.27mm</field>
+        <field name="Datasheet">http://www.winbond.com/resource-files/w25q32jv%20revg%2003272018%20plus.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~{CS}" type="input"/>
+        <pin num="2" name="DO(IO1)" type="bidirectional"/>
+        <pin num="3" name="IO2" type="bidirectional"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="DI(IO0)" type="bidirectional"/>
+        <pin num="6" name="CLK" type="input"/>
+        <pin num="7" name="IO3" type="bidirectional"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="OLED" part="IS66WVS1M8BLL-104NLI">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">IS66WVS1M8BLL-104NLI</field>
+      </fields>
+      <pins>
+        <pin num="1" name="CE#" type="passive"/>
+        <pin num="2" name="SO/SIO1" type="passive"/>
+        <pin num="3" name="SIO2" type="passive"/>
+        <pin num="4" name="VSS" type="passive"/>
+        <pin num="5" name="SI/SIO0" type="passive"/>
+        <pin num="6" name="CLK" type="passive"/>
+        <pin num="7" name="SIO3" type="passive"/>
+        <pin num="8" name="VDD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="NCP1117-3.3_TO252">
+      <description>1A Low drop-out regulator, Fixed Output 3.3V, TO-252 (DPAK)</description>
+      <docs>http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF</docs>
+      <footprints>
+        <fp>TO?252*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">NCP1117-3.3_TO252</field>
+        <field name="Footprint">Package_TO_SOT_SMD:TO-252-2</field>
+        <field name="Datasheet">http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VO" type="power_out"/>
+        <pin num="3" name="VI" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_DIP_x02">
+      <description>2x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SW?DIP?x2*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_DIP_x02</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_MEC_5E">
+      <description>MEC 5E single pole normally-open tactile switch</description>
+      <docs>http://www.apem.com/int/index.php?controller=attachment&amp;id_attachment=1371</docs>
+      <footprints>
+        <fp>SW*MEC*5G*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_MEC_5E</field>
+        <field name="Datasheet">http://www.apem.com/int/index.php?controller=attachment&amp;id_attachment=1371</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="K" type="passive"/>
+        <pin num="4" name="A" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/symbols//Connector.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>/usr/share/kicad/symbols//Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="Diode">
+      <uri>/usr/share/kicad/symbols//Diode.kicad_sym</uri>
+    </library>
+    <library logical="Memory_Flash">
+      <uri>/usr/share/kicad/symbols//Memory_Flash.kicad_sym</uri>
+    </library>
+    <library logical="OLED">
+      <uri>/home/jrsharp/hardware/OLED_DEV_BOARD/OLED_DEV_BOARD/OLED.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>/usr/share/kicad/symbols//Regulator_Linear.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>/usr/share/kicad/symbols//Switch.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="SW1" pin="3" pintype="passive"/>
+      <node ref="SW1" pin="4" pintype="passive"/>
+      <node ref="SW2" pin="3" pinfunction="K" pintype="passive"/>
+      <node ref="SW2" pin="4" pinfunction="A" pintype="passive"/>
+      <node ref="SW3" pin="3" pinfunction="K" pintype="passive"/>
+      <node ref="SW3" pin="4" pinfunction="A" pintype="passive"/>
+      <node ref="SW4" pin="3" pinfunction="K" pintype="passive"/>
+      <node ref="SW4" pin="4" pinfunction="A" pintype="passive"/>
+      <node ref="SW5" pin="3" pinfunction="K" pintype="passive"/>
+      <node ref="SW5" pin="4" pinfunction="A" pintype="passive"/>
+      <node ref="SW6" pin="3" pinfunction="K" pintype="passive"/>
+      <node ref="SW6" pin="4" pinfunction="A" pintype="passive"/>
+      <node ref="SW7" pin="3" pinfunction="K" pintype="passive"/>
+      <node ref="SW7" pin="4" pinfunction="A" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="VDD" pintype="passive"/>
+      <node ref="U2" pin="8" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U3" pin="2" pinfunction="VO" pintype="power_out"/>
+    </net>
+    <net code="2" name="/A_BUTTON">
+      <node ref="J4" pin="20" pinfunction="Pin_20" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="SW2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW2" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="3" name="/BS1">
+      <node ref="J2" pin="19" pinfunction="Pin_19" pintype="passive"/>
+      <node ref="J4" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="SW1" pin="1" pintype="passive"/>
+    </net>
+    <net code="4" name="/BS2">
+      <node ref="J2" pin="20" pinfunction="Pin_20" pintype="passive"/>
+      <node ref="J4" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="SW1" pin="2" pintype="passive"/>
+    </net>
+    <net code="5" name="/B_BUTTON">
+      <node ref="J4" pin="19" pinfunction="Pin_19" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="SW3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW3" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="6" name="/CS#">
+      <node ref="J2" pin="17" pinfunction="Pin_17" pintype="passive"/>
+      <node ref="J4" pin="6" pinfunction="Pin_6" pintype="passive"/>
+    </net>
+    <net code="7" name="/DB0">
+      <node ref="J2" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="J4" pin="14" pinfunction="Pin_14" pintype="passive"/>
+    </net>
+    <net code="8" name="/DB1">
+      <node ref="J2" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="J4" pin="13" pinfunction="Pin_13" pintype="passive"/>
+    </net>
+    <net code="9" name="/DB2">
+      <node ref="J2" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="J4" pin="12" pinfunction="Pin_12" pintype="passive"/>
+    </net>
+    <net code="10" name="/DB3">
+      <node ref="J2" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="J4" pin="11" pinfunction="Pin_11" pintype="passive"/>
+    </net>
+    <net code="11" name="/DB4">
+      <node ref="J2" pin="11" pinfunction="Pin_11" pintype="passive"/>
+      <node ref="J4" pin="10" pinfunction="Pin_10" pintype="passive"/>
+    </net>
+    <net code="12" name="/DB5">
+      <node ref="J2" pin="12" pinfunction="Pin_12" pintype="passive"/>
+      <node ref="J4" pin="9" pinfunction="Pin_9" pintype="passive"/>
+    </net>
+    <net code="13" name="/DB6">
+      <node ref="J2" pin="13" pinfunction="Pin_13" pintype="passive"/>
+      <node ref="J4" pin="8" pinfunction="Pin_8" pintype="passive"/>
+    </net>
+    <net code="14" name="/DB7">
+      <node ref="J2" pin="14" pinfunction="Pin_14" pintype="passive"/>
+      <node ref="J4" pin="7" pinfunction="Pin_7" pintype="passive"/>
+    </net>
+    <net code="15" name="/DOWN_BUTTON">
+      <node ref="J4" pin="21" pinfunction="Pin_21" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="SW6" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW6" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="16" name="/D{slash}C#">
+      <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J4" pin="18" pinfunction="Pin_18" pintype="passive"/>
+    </net>
+    <net code="17" name="/E">
+      <node ref="J2" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J4" pin="15" pinfunction="Pin_15" pintype="passive"/>
+    </net>
+    <net code="18" name="/FLASH_CLK">
+      <node ref="J4" pin="35" pinfunction="Pin_35" pintype="passive"/>
+      <node ref="U2" pin="6" pinfunction="CLK" pintype="input"/>
+    </net>
+    <net code="19" name="/FLASH_CSb">
+      <node ref="J4" pin="31" pinfunction="Pin_31" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="~{CS}" pintype="input"/>
+    </net>
+    <net code="20" name="/FLASH_D0">
+      <node ref="J4" pin="34" pinfunction="Pin_34" pintype="passive"/>
+      <node ref="U2" pin="5" pinfunction="DI(IO0)" pintype="bidirectional"/>
+    </net>
+    <net code="21" name="/FLASH_D1">
+      <node ref="J4" pin="32" pinfunction="Pin_32" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="DO(IO1)" pintype="bidirectional"/>
+    </net>
+    <net code="22" name="/FLASH_D2">
+      <node ref="J4" pin="33" pinfunction="Pin_33" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="IO2" pintype="bidirectional"/>
+    </net>
+    <net code="23" name="/FLASH_D3">
+      <node ref="J4" pin="36" pinfunction="Pin_36" pintype="passive"/>
+      <node ref="U2" pin="7" pinfunction="IO3" pintype="bidirectional"/>
+    </net>
+    <net code="24" name="/LEFT_BUTTON">
+      <node ref="J4" pin="22" pinfunction="Pin_22" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="SW4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW4" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="25" name="/PSRAM_CLK">
+      <node ref="J4" pin="30" pinfunction="Pin_30" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="CLK" pintype="passive"/>
+    </net>
+    <net code="26" name="/PSRAM_CSb">
+      <node ref="J4" pin="26" pinfunction="Pin_26" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="CE#" pintype="passive"/>
+    </net>
+    <net code="27" name="/PSRAM_D0">
+      <node ref="J4" pin="27" pinfunction="Pin_27" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="SI/SIO0" pintype="passive"/>
+    </net>
+    <net code="28" name="/PSRAM_D1">
+      <node ref="J4" pin="25" pinfunction="Pin_25" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="SO/SIO1" pintype="passive"/>
+    </net>
+    <net code="29" name="/PSRAM_D2">
+      <node ref="J4" pin="28" pinfunction="Pin_28" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="SIO2" pintype="passive"/>
+    </net>
+    <net code="30" name="/PSRAM_D3">
+      <node ref="J4" pin="29" pinfunction="Pin_29" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="SIO3" pintype="passive"/>
+    </net>
+    <net code="31" name="/PWM">
+      <node ref="J4" pin="17" pinfunction="Pin_17" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="32" name="/RES#">
+      <node ref="J2" pin="16" pinfunction="Pin_16" pintype="passive"/>
+      <node ref="J4" pin="5" pinfunction="Pin_5" pintype="passive"/>
+    </net>
+    <net code="33" name="/RIGHT_BUTTON">
+      <node ref="J4" pin="23" pinfunction="Pin_23" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="SW7" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW7" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="34" name="/R{slash}W#">
+      <node ref="J2" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J4" pin="16" pinfunction="Pin_16" pintype="passive"/>
+    </net>
+    <net code="35" name="/UP_BUTTON">
+      <node ref="J4" pin="24" pinfunction="Pin_24" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="SW5" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW5" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="36" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="J1" pin="2" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J2" pin="15" pinfunction="Pin_15" pintype="passive"/>
+      <node ref="J2" pin="18" pinfunction="Pin_18" pintype="passive"/>
+      <node ref="J3" pin="G" pintype="passive"/>
+      <node ref="J3" pin="S" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J4" pin="37" pinfunction="Pin_37" pintype="passive"/>
+      <node ref="J4" pin="38" pinfunction="Pin_38" pintype="passive"/>
+      <node ref="J4" pin="39" pinfunction="Pin_39" pintype="passive"/>
+      <node ref="J4" pin="40" pinfunction="Pin_40" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="VSS" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="1" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="37" name="Net-(C1-Pad1)">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J1" pin="1" pintype="passive"/>
+      <node ref="U3" pin="3" pinfunction="VI" pintype="power_in"/>
+    </net>
+    <net code="38" name="Net-(C2-Pad1)">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="J3" pin="R" pintype="passive"/>
+      <node ref="J3" pin="T" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+    </net>
+    <net code="39" name="unconnected-(J2-Pad3)">
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive+no_connect"/>
+    </net>
+  </nets>
+</export>
