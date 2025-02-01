@@ -1,0 +1,24 @@
+set_io CLK12	35
+
+# 4A
+set_io UP_BUTTON 48
+
+# 23B
+set_io DOWN_BUTTON 21
+
+# 9B
+set_io LEFT_BUTTON 3
+
+# 24A
+set_io RIGHT_BUTTON 13
+
+# 8A
+set_io A_BUTTON 4
+
+# 22A
+set_io B_BUTTON 12
+
+
+set_io RGB0 39
+set_io RGB1 40
+set_io RGB2 41
