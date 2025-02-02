@@ -82,7 +82,7 @@ localparam state_do_patt1         = 4'd6;
 localparam state_do_patt1_wait    = 4'd7;
 localparam state_do_patt2         = 4'd8;
 localparam state_do_patt2_wait    = 4'd9;
-
+localparam state_done             = 4'd10;
 
 
 
@@ -104,6 +104,8 @@ reg [3:0] dat_count;
 reg [1:0] dat_state = dat_state_idle;
 
 reg [15:0] col;
+reg [15:0] col2;
+reg [3:0] col3;
 
 always @(posedge CLK)
 begin
@@ -201,23 +203,26 @@ begin
                     state <= state_do_patt1;
             end
             state_do_patt1: begin
-                dat <= {1'b1, col[7:0]};
+                dat <= {1'b1, col2[15:8]};
                 go <= 1'b1;
                 if (done == 1'b1)
                     state <= state_do_patt2;
             end
             state_do_patt2: begin
-                dat <= {1'b1, col[15:8]};
+                dat <= {1'b1, col2[7:0]};
                 go <= 1'b1;
-                if (done == 1'b1)
+                if (done == 1'b1) begin
                     state <= state_do_patt1;
-                col <= col + 15'd1;
-                //if (col == 15'd20799)
-                //    state <= state_patt_start;
+                    col <= col + 16'd1;
+                    col2 <= col2 + 16'd1;
+                  
+                    if (col == 16'd20799) begin
+                        state <= state_patt_start;
+                        col <= 16'd0;
+                        col2 <= col2 + 2;
+                    end
+                end
             end
-
-
-
         endcase    
     end    
 end
