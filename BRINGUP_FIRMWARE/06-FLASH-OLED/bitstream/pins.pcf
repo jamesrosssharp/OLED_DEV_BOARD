@@ -1,0 +1,89 @@
+set_io CLK12	35
+
+# 4A
+set_io UP_BUTTON 48
+
+# 23B
+set_io DOWN_BUTTON 21
+
+# 9B
+set_io LEFT_BUTTON 3
+
+# 24A
+set_io RIGHT_BUTTON 13
+
+# 8A
+set_io A_BUTTON 4
+
+# 22A
+set_io B_BUTTON 12
+
+# 25B_G3
+set_io OLED_RESb	20
+
+# 5B
+set_io OLED_CSb		45
+
+# 29B
+set_io OLED_DB[7]	19
+
+# 2A
+set_io OLED_DB[6]	47
+
+# 31B
+set_io OLED_DB[5]	18
+
+# 3B_G6
+set_io OLED_DB[4]	44
+
+# 20A
+set_io OLED_DB[3]       11
+
+# 0A
+set_io OLED_DB[2]       46
+
+# 18A
+set_io OLED_DB[1]	10
+
+# 6A
+set_io OLED_DB[0]	2
+
+# 16A
+set_io OLED_E		9			
+
+# 13B
+set_io OLED_RWb		6
+
+# 49A
+set_io OLED_DCb		43
+
+
+# 44B
+set_io FLASH_CSb	34
+
+# 42B
+set_io FLASH_D1		31
+
+# 43A
+set_io FLASH_D2		32
+
+# 38B
+set_io FLASH_D0		27
+
+# 39A
+set_io FLASH_D3			26
+
+# 45A_G1
+set_io FLASH_SCK		37
+
+set_io SCK	15
+# Master (PC) to slave (iCE)
+set_io MOSI	17
+# Slave (iCE) to master (PC)
+set_io MISO	14
+set_io CSb 	16
+
+
+set_io RGB0 39
+set_io RGB1 40
+set_io RGB2 41
